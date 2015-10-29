@@ -1,0 +1,69 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+
+body {
+    background: gray;
+    text-align: left;
+    padding: 0 25px;
+}
+.container {
+    background: gray;
+
+
+}
+.individualRating {
+    padding: 30px;
+    border: 1px solid black;
+}
+#main {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    background: white;
+    padding: 50px 60px;
+    border: solid #ddd;
+    border-width: 0 1px 1px 1px;
+}
+
+#main h1 {
+    margin-top: 0;
+    font-size: 35px;
+}
+
+#main ul {
+    padding-left: 20px;
+}
+
+#main .error {
+    border: 1px solid red;
+    background: #FDEFF0;
+    padding: 20px;
+}
+
+#main .success {
+    margin-top: 25px;
+}
+
+#main .success code {
+    font-size: 12px;
+    color: green;
+    line-height: 13px;
+}
+
+#rating {
+    color: #ffd700;
+}
+
+@media (max-width: 992px) {
+    #pencil {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 668px) {
+    #pencil {
+        max-width: 250px;
+    }
+}

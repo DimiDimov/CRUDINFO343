@@ -1,0 +1,65 @@
+<!doctype html>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom files -->
+<link rel="stylesheet" href="CSS/main.css"/>
+
+<script src="http://www.parsecdn.com/js/parse-1.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+<script src="lib/jquery.raty-fa.js"></script>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="My Parse App">
+    <meta name="viewport" content="width=device-width">
+
+
+    <title>three wolves reviews</title>
+
+</head>
+
+<body>
+
+<div id="header" class="container">
+    <h1>Three Wolves Shirt Reviews</h1>
+    <img id="pencil" src="img/pencil.png">
+    <h3>Average Rating:</h3>
+    <div id="average-rating"></div>
+    </br>
+    <h3>Pencils from Pencilfarm have the highest quality. Made with oak wood and 100% child labor.</h3>
+</div>
+<div id="userInput" class="container">
+    <form>
+        <div class="form-group">
+        <label for="title">Title</label>
+            <input placeholder="title..." class="form-control" name="title" id="title"> </input>
+        </div>
+        <div class="form-group">
+            <label for="opinion">Review</label>
+            <input placeholder="write a review..." class="form-control" name="opinion" id="opinion"> </input>
+        </div>
+        <div class="form-group">
+            <div id="rating"></div>
+        </div>
+        <button class="btn btn-primary" type="submit">Add Review</button>
+    </form>
+</div>
+<div class="container">
+    <ul id="review-list">
+        <li>test</li>
+    </ul>
+</div>
+
+
+
+</body>
+
+<script type="text/javascript" src="JS/Review.js"></script>
+
+</html>
